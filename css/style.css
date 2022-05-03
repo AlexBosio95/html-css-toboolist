@@ -20,7 +20,7 @@ header{
 }
 
 header img {
-    width: 90px;
+    width: 80px;
     vertical-align: middle;
 }
 
@@ -54,15 +54,27 @@ hr{
     color: white;
 }
 
+#bottone_add:hover{
+    background-color: white;
+    border: 1px solid #c6ccd1;
+    color: #c6ccd1;
+}
+
 #bottone_section{
     background-color: white;
     border: 1px solid #c6ccd1;
     color: #c6ccd1;
 }
 
+#bottone_section:hover{
+    background-color: #47adf1;
+    border: 1px solid #47adf1;
+    color: white;
+}
+
 .header_lista{
     height: 70px;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     line-height: 70px;
 }
@@ -72,7 +84,10 @@ hr{
     border: none;
     border-radius: 5px;
     font-weight: bold;
+    transition-duration: 0.4s;
 }
+
+
 
 .riga_lista{
     margin: 20px 0px;
@@ -80,13 +95,15 @@ hr{
 
 
 .main_lista{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     padding: 20px 0px;
 }
 
 .main_lista h1::before{
-    content: '\25BC';
+    content: '\25BE';
+    padding: 3px;
+    margin-right: 2px;
 }
 
 .main_lista span{
